@@ -1,9 +1,9 @@
 # UTS_Lab3_OOPJava
-1. Class adalah template atau blueprint dari sebuah objek
-   Objek adalah sesuatu yang dihasilkan dari class
-   Constructor adalah metode yang digunakan untuk menginisialisasi objek 
-   Method overloading adalah fungsi yang dapat menjalankan beberapa method dengan nama yang sama namun memiliki parameter yang berbeda
-   Method setter dan getter adalah method yang berfungsi untuk mengakses dan memperbarui nilai sebuah variabel dalam class
+1. Class adalah template atau blueprint dari sebuah objek.
+   Objek adalah sesuatu yang dihasilkan dari class.
+   Constructor adalah metode yang digunakan untuk menginisialisasi objek.
+   Method overloading adalah fungsi yang dapat menjalankan beberapa method dengan nama yang sama namun memiliki parameter yang berbeda.
+   Method setter dan getter adalah method yang berfungsi untuk mengakses dan memperbarui nilai sebuah variabel dalam class.
    
 2. Output soal nomor 2 (Reverse)
 ![image](https://user-images.githubusercontent.com/131266806/236206460-e59bba92-e8bd-4a72-a637-fc22ac2b4fb2.png)
