@@ -25,11 +25,16 @@ public class ReverseString {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Masukkan kalimat: ");
         String sentence = scanner.nextLine();
+        if (!sentence.isBlank()) {
 
-        String reversedSentence = reverseSentence(sentence);
-        String reversedWords = reverseWords(sentence);
+            String reversedSentence = reverseSentence(sentence);
+            String reversedWords = reverseWords(sentence);
 
-        System.out.println("Hasil reverse kalimat : " + reversedSentence);
-        System.out.println("Hasil kalimat yang di reverse perkata : " + reversedWords);
+            System.out.println("Hasil reverse kalimat : " + reversedSentence);
+            System.out.println("Hasil kalimat yang di reverse perkata : " + reversedWords);
+        } else{
+            System.out.println("Anda tidak memasukkan apapun");
+        }
+
     }
 }
