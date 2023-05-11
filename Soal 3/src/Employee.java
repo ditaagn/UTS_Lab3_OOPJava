@@ -8,7 +8,12 @@ public class Employee {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
-        this.salary = salary;
+        if (salary < 0) {
+            System.out.println("Nilai salary tidak boleh kecil dari 0");
+            this.salary = 0;
+        } else {
+            this.salary = salary;
+        }
     }
 
     public int getID() {
@@ -40,7 +45,12 @@ public class Employee {
     }
 
     public void setSalary(double salary) {
-        this.salary = salary;
+        if (salary < 0) {
+            System.out.println("Nilai salary tidak boleh kecil dari 0");
+            this.salary = 0;
+        } else {
+            this.salary = salary;
+        }
     }
 
     public String getName() {
